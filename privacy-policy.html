@@ -27,6 +27,7 @@
     <symbol id="i-save" viewBox="0 0 24 24"><path d="M5 3.5h11l3.5 3.5V19a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 19V5A1.5 1.5 0 0 1 5 3.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M7.5 3.5v5h8v-5M7.5 20.5v-6h9v6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
     <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5.2l3.4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="i-cube" viewBox="0 0 24 24"><path d="M12 2.8l8 4.4v9.6l-8 4.4-8-4.4V7.2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4.3 7.4L12 11.8l7.7-4.4M12 11.8v9.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12.5H6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8.5 10V7a3.5 3.5 0 0 1 7 0v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
     <symbol id="i-home" viewBox="0 0 24 24"><path d="M3.5 11L12 4l8.5 7M6 9.5V20h4.5v-5.5h3V20H18V9.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   </svg>
 
@@ -100,7 +101,7 @@
         <h2><span class="num">02</span>What we collect</h2>
         <div class="note go">
           <p class="note-title"><svg aria-hidden="true"><use href="#i-check"/></svg>The short version</p>
-          <p>The Drive AR app does <strong>not</strong> collect, store on a server, share or sell any personal data. It has no sign-in and does not connect to the internet. On the App Store, its privacy label is <strong>“Data Not Collected.”</strong></p>
+          <p>The Drive AR app does <strong>not</strong> collect, store on a server, share or sell any personal data. It has no sign-in, and the only time it goes online is when you buy or restore an in-app purchase through Apple. On the App Store, its privacy label is <strong>“Data Not Collected.”</strong></p>
         </div>
         <p>Specifically, Drive AR does not have or use:</p>
         <ul>
@@ -108,8 +109,8 @@
           <li>advertising, ad networks or advertising identifiers (IDFA) — and it never asks to track you;</li>
           <li>analytics, crash-reporting or attribution software development kits (SDKs) from third parties;</li>
           <li>location services, contacts, the microphone or health data;</li>
-          <li>in-app purchases or payment information;</li>
-          <li>its own servers, or any network connection.</li>
+          <li>your payment details — in-app purchases are paid through Apple, and we never see your card or billing information;</li>
+          <li>its own servers. Apart from purchases handled by Apple, the game does not connect to the internet.</li>
         </ul>
         <p>We do not sell or share personal information, we do not use it for targeted advertising, and we do not make automated decisions or build profiles about you.</p>
       </section>
@@ -135,12 +136,17 @@
           </li>
           <li class="row">
             <span class="row-icon"><svg aria-hidden="true"><use href="#i-video"/></svg></span>
-            <span class="row-text"><b>Screen recording</b><span>Gameplay videos use Apple’s ReplayKit. The microphone is turned off, so videos contain no sound from your surroundings. iOS asks your permission each time.</span></span>
+            <span class="row-text"><b>Screen recording</b><span>Gameplay videos use Apple’s ReplayKit. The microphone is turned off, so videos contain no sound from your surroundings. iOS asks your permission before recording starts.</span></span>
             <span class="chip"><svg aria-hidden="true"><use href="#i-check"/></svg>On device</span>
           </li>
           <li class="row">
             <span class="row-icon"><svg aria-hidden="true"><use href="#i-save"/></svg></span>
             <span class="row-text"><b>Game progress and settings</b><span>Coins, stars, cars, upgrades, paint, missions and your control layout are saved in the app’s private storage on your iPhone.</span></span>
+            <span class="chip"><svg aria-hidden="true"><use href="#i-check"/></svg>On device</span>
+          </li>
+          <li class="row">
+            <span class="row-icon"><svg aria-hidden="true"><use href="#i-bag"/></svg></span>
+            <span class="row-text"><b>In-app purchases</b><span>Apple’s StoreKit tells the game, on your iPhone, which items you have bought so it can unlock them. Apple takes the payment; the game only learns which item you bought.</span></span>
             <span class="chip"><svg aria-hidden="true"><use href="#i-check"/></svg>On device</span>
           </li>
           <li class="row">
@@ -156,6 +162,8 @@
         <h2><span class="num">04</span>Information from Apple</h2>
         <p>Apple distributes Drive AR through the App Store and processes data such as your Apple Account and download history under the <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a>. We do not receive that information.</p>
         <p>If you have turned on <span class="path">Settings › Privacy &amp; Security › Analytics &amp; Improvements › Share With App Developers</span>, Apple may give us crash reports and aggregate statistics, such as the number of installs. This information does not identify you. We use it only to fix bugs and improve the game. You can turn this off at any time.</p>
+        <h3>In-app purchases</h3>
+        <p>When you buy something in Drive AR, Apple processes the payment under its own terms and privacy policy. We never receive your name, Apple Account, email address, card or billing details. Apple gives us sales reports showing, for example, which item was sold, in which country, and how much we earned. These reports do not identify you, and we use them only for accounting, tax and improving the game.</p>
       </section>
 
       <section id="email">
@@ -179,6 +187,7 @@
       <section id="children">
         <h2><span class="num">07</span>Children</h2>
         <p>Drive AR is a game for a general audience. Because the app collects no personal data from anyone, it collects none from children either. We do not knowingly collect personal information from children under 13 (the US Children’s Online Privacy Protection Act, COPPA) or under the age of digital consent in their country (13 to 16 in the EU and UK).</p>
+        <p>Parents can stop or approve purchases with Apple’s Screen Time and Ask to Buy features. See <a href="support.html#parents">Support</a> for how.</p>
         <p>If you believe a child has emailed us, a parent or guardian can contact us and we will delete the message.</p>
       </section>
 
@@ -234,7 +243,7 @@
 
       <section id="transfers">
         <h2><span class="num">09</span>International transfers</h2>
-        <p>The app itself transfers no data anywhere. If you email us, your message may be stored and read outside your country, including in the United States by Google as our email provider. Google LLC is certified under the EU-U.S. Data Privacy Framework, its UK Extension and the Swiss-U.S. Data Privacy Framework, and also relies on Standard Contractual Clauses. These safeguards are recognised under the GDPR, the UK GDPR and the FADP.</p>
+        <p>The app sends no data to us. Purchases are handled by Apple under the <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a>. If you email us, your message may be stored and read outside your country, including in the United States by Google as our email provider. Google LLC is certified under the EU-U.S. Data Privacy Framework, its UK Extension and the Swiss-U.S. Data Privacy Framework, and also relies on Standard Contractual Clauses. These safeguards are recognised under the GDPR, the UK GDPR and the FADP.</p>
       </section>
 
       <section id="security">
