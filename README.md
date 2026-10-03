@@ -1,6 +1,6 @@
-# Drive AR — Privacy Policy, Terms & Support
+# Drift Anywhere: AR Cars — Privacy Policy, Terms & Support
 
-Static pages for the Drive AR iPhone game, styled like the game (navy garage, racing yellow, Lilita One).
+Static pages for the Drift Anywhere: AR Cars iPhone game (display name “Drive AR”), styled like the game (navy garage, racing yellow, Lilita One).
 
 | Page | URL (GitHub Pages) |
 |---|---|

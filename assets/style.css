@@ -146,11 +146,20 @@ strong {
   box-shadow: 0 3px 0 var(--drop);
 }
 
+.brand {
+  min-width: 0;
+}
+
 .brand span {
   font-family: var(--display);
-  font-size: 28px;
-  line-height: 1;
+  /* The App Store name is long: it shrinks on phones and may wrap rather than overflow. */
+  font-size: clamp(18px, 4.8vw, 28px);
+  line-height: 1.05;
   letter-spacing: 0.01em;
+}
+
+.brand img {
+  flex: none;
 }
 
 .top-btn {
@@ -225,6 +234,15 @@ strong {
   font-size: clamp(42px, 11vw, 68px);
   line-height: 0.98;
   color: var(--asphalt);
+}
+
+.stage h1.name-title {
+  font-size: clamp(36px, 10vw, 64px);
+  text-wrap: balance;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .stage .lede {
